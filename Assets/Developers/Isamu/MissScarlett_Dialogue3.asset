@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
-  m_Name: MissScarlett_Dialogue2
+  m_Name: MissScarlett_Dialogue3
   m_EditorClassIdentifier: Assembly-CSharp:DialogueSystem:Dialogue
-  dialogueID: MissScarlett_Questioned
+  dialogueID: MissScarlett_Secrets
   characterName: Miss Scarlett
-  dialoguePrompt: Question Miss Scarlett
+  dialoguePrompt: Confront about secrets
   dialogueLines:
-  - text: The Colonel sent you, didn't he? Always trying to pin things on me. How
-      predictable.
+  - text: So the Colonel is deflecting again, is he? I suppose you deserve to know
+      the truth.
     audioClip: {fileID: 8300000, guid: 65347527a02f8224882b66f1349ed56b, type: 3}
-  - text: If you must know, I was looking for a book. But I did overhear the Colonel
-      arguing with someone in the study earlier.
+  - text: Mr. Boddy had letters. Correspondence that could ruin my reputation in
+      society. I came here to retrieve them, nothing more.
     audioClip: {fileID: 8300000, guid: 72ebcd93187c2364ebf5d2d71037fe3b, type: 3}
-  - text: Perhaps you should ask him about that before jumping to conclusions about
-      me.
+  - text: The Colonel's debts were far more desperate than my social standing. If
+      anyone had motive, it was him.
     audioClip: {fileID: 8300000, guid: fe41416da17699145815adca3743f4a4, type: 3}
   requiresCondition: 1
-  requiredDialogueID: ColonelMustard_Intro
+  requiredDialogueID: ColonelMustard_Argument

@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
   m_Name: MissScarlett_Dialogue1
   m_EditorClassIdentifier: Assembly-CSharp:DialogueSystem:Dialogue
-  dialogueID: MS1
+  dialogueID: MissScarlett_Intro
   characterName: Miss Scarlett
-  dialoguePrompt: Dialogue Option 1
+  dialoguePrompt: Introduce yourself
   dialogueLines:
-  - text: ms test 1
-    audioClip: {fileID: 8300000, guid: 65347527a02f8224882b66f1349ed56b, type: 3}
-  - text: test
-    audioClip: {fileID: 8300000, guid: 72ebcd93187c2364ebf5d2d71037fe3b, type: 3}
-  - text: yuh
-    audioClip: {fileID: 8300000, guid: fe41416da17699145815adca3743f4a4, type: 3}
+  - text: Oh, hello there. You must be investigating what happened. How... thorough
+      of you.
+    audioClip: {fileID: 8300000, guid: b8e51bde11b00364fa98464884a7c8bc, type: 3}
+  - text: I was simply in the library earlier, looking for a book. Surely that's
+      not a crime.
+    audioClip: {fileID: 8300000, guid: fa504c63159fa2b46b7a402b0c325e27, type: 3}
+  - text: If you want real answers, perhaps you should speak with Colonel Mustard.
+      He's been acting rather oddly today.
+    audioClip: {fileID: 8300000, guid: 2c23c423f70b93243b5c49d5050130c8, type: 3}
   requiresCondition: 0
   requiredDialogueID: 

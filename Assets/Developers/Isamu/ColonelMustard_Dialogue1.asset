@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
   m_Name: ColonelMustard_Dialogue1
   m_EditorClassIdentifier: Assembly-CSharp:DialogueSystem:Dialogue
-  dialogueID: CM1
+  dialogueID: ColonelMustard_Intro
   characterName: Colonel Mustard
-  dialoguePrompt: Dialogue Option 1
+  dialoguePrompt: Speak with the Colonel
   dialogueLines:
-  - text: 1
-    audioClip: {fileID: 8300000, guid: 65347527a02f8224882b66f1349ed56b, type: 3}
-  - text: test
-    audioClip: {fileID: 8300000, guid: 72ebcd93187c2364ebf5d2d71037fe3b, type: 3}
-  - text: test
-    audioClip: {fileID: 8300000, guid: fe41416da17699145815adca3743f4a4, type: 3}
+  - text: Ah, you've arrived. About time someone investigated this dreadful business
+      properly.
+    audioClip: {fileID: 8300000, guid: 28627873c35ccdf4d8184d13ba6fc977, type: 3}
+  - text: I saw Miss Scarlet near the library just before the incident. She was acting
+      rather... suspicious, if you ask me.
+    audioClip: {fileID: 8300000, guid: f0e632603832bf041bcb635b293fd061, type: 3}
+  - text: You should speak with her immediately. She may know more than she's letting
+      on.
+    audioClip: {fileID: 8300000, guid: 2fd4733f87925eb42b5ed2a72b2e53e7, type: 3}
   requiresCondition: 0
   requiredDialogueID: 
