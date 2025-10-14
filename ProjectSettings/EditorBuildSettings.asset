@@ -5,33 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-<<<<<<< Updated upstream
-=======
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FrontDoor.unity
     guid: ca1a4f4ae3576b34b9e183eccb809003
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DrawingRoom.unity
     guid: 04feefc5ea2b0ef4f9207619fbb357e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Foyer.unity
     guid: 49374b405d8c89d43b92bc34e4beb335
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DiningRoom.unity
     guid: a19c35fc11f753f449d72feb416ee04d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Library.unity
     guid: e5bd29c40eef43b49835c3f42bfdb65a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ServantsQuarters.unity
     guid: 0bb28bb2098fb3448a0a5df0b33b08e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UpstairsBedroom.unity
     guid: 222e7346cd75af04ea98b32b6905e3b8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SecretPassage.unity
     guid: 5426d8d79c35c434d8281908ec119e1b
   - enabled: 1
@@ -40,10 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Developers/Isamu/TB_DialogueSystem2.unity
     guid: c1ecc3dd92d6d284990ab9a64fefc612
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

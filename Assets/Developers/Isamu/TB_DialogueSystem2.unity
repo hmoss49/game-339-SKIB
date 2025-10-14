@@ -476,11 +476,27 @@ MonoBehaviour:
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
       - m_Target: {fileID: 307343932}
 ========
       - m_Target: {fileID: 1364990666}
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+      - m_Target: {fileID: 1364990666}
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+      - m_Target: {fileID: 307343932}
+>>>>>>> Stashed changes
+========
+      - m_Target: {fileID: 1364990666}
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+      - m_Target: {fileID: 307343932}
+>>>>>>> Stashed changes
 ========
       - m_Target: {fileID: 1364990666}
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
@@ -727,6 +743,10 @@ MonoBehaviour:
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 --- !u!1 &680722395
 ========
@@ -741,6 +761,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+--- !u!1 &680722395
+========
+--- !u!1 &353654876 stripped
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4079775420628654618, guid: e0d1582a8ed3e51428e902732362383e, type: 3}
+  m_PrefabInstance: {fileID: 3178034516003074638}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+>>>>>>> Stashed changes
+=======
+--- !u!1 &680722395
+========
+--- !u!1 &353654876 stripped
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4079775420628654618, guid: e0d1582a8ed3e51428e902732362383e, type: 3}
+  m_PrefabInstance: {fileID: 3178034516003074638}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+>>>>>>> Stashed changes
 =======
 --- !u!1 &680722395
 ========
@@ -776,6 +818,14 @@ GameObject:
 --- !u!224 &680722396
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+========
+--- !u!224 &353654877 stripped
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+--- !u!224 &353654877 stripped
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
 --- !u!224 &353654877 stripped
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
@@ -792,7 +842,13 @@ RectTransform:
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 RectTransform:
@@ -801,6 +857,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -820,7 +882,13 @@ RectTransform:
 --- !u!114 &680722397
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
@@ -870,11 +938,17 @@ RectTransform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
@@ -1057,8 +1131,226 @@ CanvasRenderer:
 --- !u!1 &1023033014
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 ========
 ========
+========
+========
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023033015}
+  - component: {fileID: 1023033018}
+  - component: {fileID: 1023033017}
+  - component: {fileID: 1023033016}
+  m_Layer: 5
+  m_Name: ChoiceMenuPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1023033015
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248855788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 437, y: -110}
+  m_SizeDelta: {x: -1440.2952, y: -817.0159}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1023033016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1023033017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+=======
+  m_GameObject: {fileID: 680722395}
+>>>>>>> Stashed changes
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream
+--- !u!222 &1023033018
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+  m_CullTransparentMesh: 1
+--- !u!1 &1244393186
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023033015}
+  - component: {fileID: 1023033018}
+  - component: {fileID: 1023033017}
+  - component: {fileID: 1023033016}
+  m_Layer: 5
+  m_Name: ChoiceMenuPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1023033015
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248855788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 437, y: -110}
+  m_SizeDelta: {x: -1440.2952, y: -817.0159}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1023033016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1023033017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+=======
+  m_GameObject: {fileID: 680722395}
+>>>>>>> Stashed changes
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream
+--- !u!222 &1023033018
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023033014}
+  m_CullTransparentMesh: 1
+--- !u!1 &1244393186
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1378,6 +1670,12 @@ MonoBehaviour:
 =======
 --- !u!222 &680722398
 >>>>>>> Stashed changes
+=======
+--- !u!222 &680722398
+>>>>>>> Stashed changes
+=======
+--- !u!222 &680722398
+>>>>>>> Stashed changes
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1385,7 +1683,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1421,11 +1725,17 @@ MonoBehaviour:
 --- !u!1 &847659562
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
   m_GameObject: {fileID: 1023033014}
   m_CullTransparentMesh: 1
 --- !u!1 &1244393186
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1439,7 +1749,13 @@ GameObject:
   m_Component:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1663,11 +1979,17 @@ GameObject:
   - component: {fileID: 1071865633}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
   - component: {fileID: 1244393187}
   - component: {fileID: 1244393189}
   - component: {fileID: 1244393188}
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1801,7 +2123,15 @@ CanvasRenderer:
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1947,13 +2277,23 @@ CanvasRenderer:
 --- !u!1 &1716276491
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 --- !u!1 &1248855784
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1981,6 +2321,8 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
@@ -2129,6 +2471,12 @@ Transform:
 =======
   m_GameObject: {fileID: 1716276491}
 >>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 1716276491}
+>>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 1716276491}
+>>>>>>> Stashed changes
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2138,7 +2486,15 @@ Transform:
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2151,6 +2507,8 @@ Transform:
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1716276493
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ========
@@ -2173,6 +2531,38 @@ MonoBehaviour:
 ========
   m_GameObject: {fileID: 0}
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+  m_GameObject: {fileID: 0}
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+========
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509011722 stripped
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3937318249653849391, guid: e0d1582a8ed3e51428e902732362383e, type: 3}
+  m_PrefabInstance: {fileID: 3178034516003074638}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+  m_GameObject: {fileID: 1716276491}
+>>>>>>> Stashed changes
+========
+  m_GameObject: {fileID: 0}
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+========
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509011722 stripped
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3937318249653849391, guid: e0d1582a8ed3e51428e902732362383e, type: 3}
+  m_PrefabInstance: {fileID: 3178034516003074638}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+  m_GameObject: {fileID: 1716276491}
+>>>>>>> Stashed changes
 ========
   m_GameObject: {fileID: 0}
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
@@ -2209,7 +2599,15 @@ MonoBehaviour:
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2304,13 +2702,23 @@ CanvasRenderer:
 --- !u!1 &2005489132
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 --- !u!1 &1701516912
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2592,7 +3000,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.DialogueManager
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2608,6 +3022,8 @@ MonoBehaviour:
 --- !u!4 &2051814307
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
   dialogueBox: {fileID: 353654876}
   characterNameText: {fileID: 1509011722}
@@ -2619,6 +3035,10 @@ MonoBehaviour:
   choiceButtonPrefab: {fileID: 1839828294191289166, guid: 61fa9d8afcff56946b8bd3e140b12a84, type: 3}
 --- !u!4 &1701516915
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2696,7 +3116,13 @@ MonoBehaviour:
   m_Enabled: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2710,6 +3136,8 @@ MonoBehaviour:
   m_DragThreshold: 10
 --- !u!4 &2071896002
 Transform:
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ========
@@ -2781,10 +3209,16 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
@@ -2825,10 +3259,22 @@ RectTransform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 >>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 2071895999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 2071895999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> Stashed changes
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
@@ -3050,7 +3496,21 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e0d1582a8ed3e51428e902732362383e, type: 3}
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 =======
@@ -3069,7 +3529,13 @@ SceneRoots:
   m_Roots:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -3082,6 +3548,8 @@ SceneRoots:
   - {fileID: 2051814307}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ========
   - {fileID: 326153514}
   - {fileID: 1248855788}
@@ -3090,7 +3558,17 @@ SceneRoots:
   - {fileID: 1364990667}
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 <<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
+<<<<<<<< Updated upstream:Assets/Developers/Isamu/TB_DialogueSystem2.unity
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
+========
+>>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
+=======
+>>>>>>> Stashed changes
 ========
 >>>>>>>> Stashed changes:Assets/Scenes/DiningRoom.unity
 =======
