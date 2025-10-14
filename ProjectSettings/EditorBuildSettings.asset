@@ -40,6 +40,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Developers/Isamu/TB_DialogueSystem2.unity
     guid: c1ecc3dd92d6d284990ab9a64fefc612
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
