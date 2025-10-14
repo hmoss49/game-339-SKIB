@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
   m_Name: ColonelMustard_Dialogue2
   m_EditorClassIdentifier: Assembly-CSharp:DialogueSystem:Dialogue
-  dialogueID: CM2
+  dialogueID: ColonelMustard_Argument
   characterName: Colonel Mustard
-  dialoguePrompt: Dialogue Option 2
+  dialoguePrompt: Ask about the argument
   dialogueLines:
-  - text: 2
-    audioClip: {fileID: 8300000, guid: 65347527a02f8224882b66f1349ed56b, type: 3}
-  - text: test
-    audioClip: {fileID: 8300000, guid: 72ebcd93187c2364ebf5d2d71037fe3b, type: 3}
-  - text: test
-    audioClip: {fileID: 8300000, guid: fe41416da17699145815adca3743f4a4, type: 3}
+  - text: She told you about that, did she? Very well. Yes, I had words with Mr.
+      Boddy about a certain... financial matter.
+    audioClip: {fileID: 8300000, guid: 7469b7b01fa4eac499ae6ce28732bb6b, type: 3}
+  - text: He was threatening to expose some rather embarrassing debts of mine. But
+      I would never resort to violence over money!
+    audioClip: {fileID: 8300000, guid: 3b34dd1c3672a8045bed785adbab92bb, type: 3}
+  - text: Miss Scarlet, however, had her own secrets with Boddy. Perhaps she's not
+      as innocent as she claims.
+    audioClip: {fileID: 8300000, guid: 0f23e59e027e85d4ab99c6cdb3b305f3, type: 3}
   requiresCondition: 1
-  requiredDialogueID: MS1
+  requiredDialogueID: MissScarlett_Intro
