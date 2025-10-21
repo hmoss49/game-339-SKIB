@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClueGame.Core.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d88fb4af75ce49bd80a11ccb73a50cfa953c3e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7209e4f070e58c801b20abb2df4a2168d91a6e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClueGame.Core.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClueGame.Core.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
