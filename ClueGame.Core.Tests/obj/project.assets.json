@@ -411,6 +411,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "ClueGame.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ClueGame.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClueGame.Core.dll": {}
+        }
       }
     }
   },
@@ -932,10 +942,16 @@
         "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "ClueGame.Core/1.0.0": {
+      "type": "project",
+      "path": "../ClueGame.Core/ClueGame.Core.csproj",
+      "msbuildProject": "../ClueGame.Core/ClueGame.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "ClueGame.Core >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.2",
@@ -973,7 +989,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\GitHub\\game-339-SKIB\\ClueGame.Core\\ClueGame.Core.csproj": {
+              "projectPath": "E:\\GitHub\\game-339-SKIB\\ClueGame.Core\\ClueGame.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
