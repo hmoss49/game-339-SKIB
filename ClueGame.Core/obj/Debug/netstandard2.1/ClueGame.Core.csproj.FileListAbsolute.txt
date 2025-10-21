@@ -1,0 +1,10 @@
+E:\GitHub\game-339-SKIB\ClueGame.Core\bin\Debug\netstandard2.1\ClueGame.Core.deps.json
+E:\GitHub\game-339-SKIB\ClueGame.Core\bin\Debug\netstandard2.1\ClueGame.Core.dll
+E:\GitHub\game-339-SKIB\ClueGame.Core\bin\Debug\netstandard2.1\ClueGame.Core.pdb
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.AssemblyInfoInputs.cache
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.AssemblyInfo.cs
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.csproj.CoreCompileInputs.cache
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.sourcelink.json
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.dll
+E:\GitHub\game-339-SKIB\ClueGame.Core\obj\Debug\netstandard2.1\ClueGame.Core.pdb
