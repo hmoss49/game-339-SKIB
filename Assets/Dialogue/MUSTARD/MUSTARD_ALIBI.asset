@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: MUSTARD_ALIBI
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: MUSTARD_ALIBI
+  characterName: Lt. Honey Mustard
+  dialoguePrompt: Get Lt. Honey Mustard's alibi
+  dialogueLines:
+  - text: "Late at night I heard Miss Red\u2019s heels on the stairs. Followed to
+      make sure she wasn\u2019t charging back into the storm. Poor lass was apologizing,
+      not fighting. Heard Money as well a bit later, perhaps he was also apologizing."
+    audioClip: {fileID: 8300000, guid: 280d619921ca04b7489b02d84492abf7, type: 3}
+  - text: "Went to bed soon after. Woke to the shot and the Butler\u2019s cry. That
+      sound\u2026 it takes you right back to the battlefield."
+    audioClip: {fileID: 8300000, guid: 528ecafc5e4dc437fa26939752b49439, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: MUSTARD_BASE

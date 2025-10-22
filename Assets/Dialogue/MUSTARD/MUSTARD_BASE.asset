@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: MUSTARD_BASE
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: MUSTARD_BASE
+  characterName: Lt. Honey Mustard
+  dialoguePrompt: Talk to Lt. Honey Mustard
+  dialogueLines:
+  - text: The Lord was a friend, a patron, and the only man who ever lent without
+      strings. World needs more of him and fewer accountants.
+    audioClip: {fileID: 8300000, guid: c7d9c143bd2084700ace52695f8524b5, type: 3}
+  - text: "Up front I have to say that yes that is my sidearm, I left in the Drawing
+      Room. Old Butler always nags me for having it at dinner. I wish I wouldn\u2019t
+      have listened, just this once."
+    audioClip: {fileID: 8300000, guid: 720ec531749c440cbb64a2972cf63316, type: 3}
+  requiresCondition: 0
+  requiredDialogueID: 

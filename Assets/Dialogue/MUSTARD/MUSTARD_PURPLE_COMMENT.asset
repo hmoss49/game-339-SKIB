@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: MUSTARD_PURPLE_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: MUSTARD_PURPLE_COMMENT
+  characterName: Lt. Honey Mustard
+  dialoguePrompt: Ask about Dr. Purple
+  dialogueLines:
+  - text: "The Doctor talks a fine game. Brilliant mind, sure, but too used to handouts.
+      Still, the Lord saw something in him once\u2014maybe I did too. Shame what
+      pressure does to bright men."
+    audioClip: {fileID: 8300000, guid: a191a9b06688b4eaf809bb3328cc839e, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: PURPLE_BASE
