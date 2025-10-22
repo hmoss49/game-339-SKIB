@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: PURPLE_GREEN_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: PURPLE_GREEN_COMMENT
+  characterName: Dr. Purple
+  dialoguePrompt: Ask about Mr. Money
+  dialogueLines:
+  - text: Mr. Money is a man of limited imagination and even less liquidity. His
+      contributions to the world near none.
+    audioClip: {fileID: 8300000, guid: a371d8815cbcc417d991deb1df28948b, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: GREEN_BASE

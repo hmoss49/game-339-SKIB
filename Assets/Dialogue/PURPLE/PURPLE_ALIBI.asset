@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: PURPLE_ALIBI
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: PURPLE_ALIBI
+  characterName: Dr. Purple
+  dialoguePrompt: Get Dr. Purple's alibi
+  dialogueLines:
+  - text: "I returned to my work. Heard faint steps later\u2014perhaps Green, I swear
+      I smelled tobacco. Then, the gun. The sound carried beautifully through these
+      walls. Acoustics are fascinating, aren\u2019t they?"
+    audioClip: {fileID: 8300000, guid: f5bb4ab236e0445f9b740fcc5457f6c8, type: 3}
+  - text: When I emerged, everyone was already panicking. I merely stood aside, an
+      observer of human tragedy.
+    audioClip: {fileID: 8300000, guid: 59c52700a3ca84999aab27df30a2f2bf, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: PURPLE_BASE

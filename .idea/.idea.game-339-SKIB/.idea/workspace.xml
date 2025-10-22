@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bb12313-6b10-46cc-a066-e27ac0acaeb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game-339-SKIB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game-339-SKIB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Foyer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Foyer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSystem/DialogueTrigger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,7 @@
       <updated>1759813538895</updated>
       <workItem from="1759813541267" duration="2702000" />
       <workItem from="1761083781859" duration="621000" />
-      <workItem from="1761169796809" duration="1596000" />
+      <workItem from="1761169796809" duration="1856000" />
     </task>
     <servers />
   </component>

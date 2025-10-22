@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: PURPLE_MUSTARD_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: PURPLE_MUSTARD_COMMENT
+  characterName: Dr. Purple
+  dialoguePrompt: Ask about Lt. Honey Mustard
+  dialogueLines:
+  - text: Ah, Lieutenant Mustard. Loud, loyal, and perpetually armed. If all his
+      firepower were intellect. he might finally be dangerous.
+    audioClip: {fileID: 8300000, guid: dbb081ec2c72a4c7ab7f757faf33fcf8, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: MUSTARD_BASE
