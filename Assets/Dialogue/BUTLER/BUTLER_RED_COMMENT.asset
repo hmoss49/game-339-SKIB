@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: BUTLER_RED_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: BUTLER_RED_COMMENT
+  characterName: Old Butler
+  dialoguePrompt: Ask about Red
+  dialogueLines:
+  - text: "Miss Red has a good heart buried somewhere under all that perfume and
+      petulance. Still, she loved her father, I\u2019m sure of it."
+    audioClip: {fileID: 8300000, guid: b097cc30cc24a4c1e8b769a323156d0a, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: RED_BASE

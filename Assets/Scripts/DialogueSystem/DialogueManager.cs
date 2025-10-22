@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 using System.Collections.Generic;
 
@@ -24,6 +25,8 @@ namespace DialogueSystem
         private Dialogue currentDialogue;
         private int currentLineIndex;
         private List<GameObject> spawnedChoiceButtons = new List<GameObject>();
+        private GameObject currentSpeakingCharacter;
+        private Button currentSpeakingCharacterButton;
 
         void Awake()
         {
@@ -67,10 +70,20 @@ namespace DialogueSystem
             }
         }
 
-        public void StartDialogue(Dialogue dialogue)
+        public void StartDialogue(Dialogue dialogue, GameObject characterObject = null)
         {
             currentDialogue = dialogue;
             currentLineIndex = 0;
+            currentSpeakingCharacter = characterObject;
+            
+            // Disable the character button while dialogue is playing
+            if (currentSpeakingCharacter != null)
+            {
+                currentSpeakingCharacterButton = currentSpeakingCharacter.GetComponent<Button>();
+                if (currentSpeakingCharacterButton != null)
+                    currentSpeakingCharacterButton.interactable = false;
+            }
+            
             dialogueBox.SetActive(true);
             choiceMenuPanel.SetActive(false);
             
@@ -137,6 +150,19 @@ namespace DialogueSystem
                 
                 GameLogger.Instance.LogGameEvent("DialogueCompleted", $"DialogueID: {currentDialogue.dialogueID}");
             }
+
+            // Re-enable and deselect the character button
+            if (currentSpeakingCharacterButton != null)
+            {
+                currentSpeakingCharacterButton.interactable = true;
+                
+                if (EventSystem.current != null)
+                    EventSystem.current.SetSelectedGameObject(null);
+                
+                currentSpeakingCharacterButton = null;
+            }
+            
+            currentSpeakingCharacter = null;
 
             dialogueBox.SetActive(false);
             currentDialogue = null;

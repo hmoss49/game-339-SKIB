@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 
 namespace DialogueSystem
@@ -6,6 +7,12 @@ namespace DialogueSystem
     public class DialogueTrigger : MonoBehaviour
     {
         public Dialogue[] availableDialogues;
+        private Button button;
+
+        void Awake()
+        {
+            button = GetComponent<Button>();
+        }
 
         public void TriggerDialogue()
         {
@@ -16,8 +23,11 @@ namespace DialogueSystem
             if (dialoguesToShow.Length == 0)
                 return;
 
+            if (button != null)
+                button.Select();
+
             if (dialoguesToShow.Length == 1)
-                DialogueManager.Instance.StartDialogue(dialoguesToShow[0]);
+                DialogueManager.Instance.StartDialogue(dialoguesToShow[0], gameObject);
             else
                 DialogueManager.Instance.ShowDialogueChoices(dialoguesToShow);
         }

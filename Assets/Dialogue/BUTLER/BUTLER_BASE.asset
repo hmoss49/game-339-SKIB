@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: BUTLER_BASE
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: BUTLER_BASE
+  characterName: Old Butler
+  dialoguePrompt: Talk to the Old Butler
+  dialogueLines:
+  - text: "Ah, Detective. I\u2019ve served this family longer than I can recall.
+      Lord DuPont raised me as much as I raised him. These old halls have seen birthdays,
+      brawls, and worse."
+    audioClip: {fileID: 8300000, guid: 4f47964fcd1d34458bd992397fc9a815, type: 3}
+  - text: "Dinner was quite the spectacle \u2014 voices raised, tempers high. I stayed
+      in the kitchen. When the shouting began, I pretended the dishes needed more
+      scrubbing."
+    audioClip: {fileID: 8300000, guid: 1007893bf49154cc3a5cb91e5b10d52c, type: 3}
+  - text: "The Lieutenant\u2019s pistol was left in the Drawing Room, as usual, no
+      guns at the dinner table you see. I meant to collect it later, along with my
+      house keys, but my knees protested so I went to take a little rest in my quarters,
+      if only I was more spry..."
+    audioClip: {fileID: 8300000, guid: ffe9ceace48cc48a2a7b1f3580ab7c1d, type: 3}
+  requiresCondition: 0
+  requiredDialogueID: 

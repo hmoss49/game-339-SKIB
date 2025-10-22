@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: BUTLER_PURPLE_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: BUTLER_PURPLE_COMMENT
+  characterName: Old Butler
+  dialoguePrompt: Ask about Dr. Purple
+  dialogueLines:
+  - text: "Dr. Purple was good for the Lord, once. The old man liked having someone
+      to talk about the stars with. I only wish money hadn\u2019t gotten between
+      them."
+    audioClip: {fileID: 8300000, guid: 39e15917b795948d68268c0fa98686df, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: PURPLE_BASE

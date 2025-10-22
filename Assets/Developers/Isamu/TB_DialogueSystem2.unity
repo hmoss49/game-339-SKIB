@@ -1576,8 +1576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.DialogueTrigger
   availableDialogues:
   - {fileID: 11400000, guid: 82fbc29f53c619949bb00ab6f94bf22d, type: 2}
-  - {fileID: 11400000, guid: 8a7a109f24180cd4696929a3f87145c2, type: 2}
-  - {fileID: 11400000, guid: e2c38afa82d3e814f831f87b1c27b952, type: 2}
+  - {fileID: 11400000, guid: 73330a3837ec73c49ba2e596934c6db2, type: 2}
+  - {fileID: 11400000, guid: ebf7e7b0b7f10b94996ecc41119ca2aa, type: 2}
 --- !u!1 &2051814304
 GameObject:
   m_ObjectHideFlags: 0
