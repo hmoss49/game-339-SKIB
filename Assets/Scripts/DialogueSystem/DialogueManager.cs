@@ -75,6 +75,9 @@ namespace DialogueSystem
             choiceMenuPanel.SetActive(false);
             
             characterNameText.text = dialogue.characterName;
+            
+            GameLogger.Instance.LogGameEvent("DialogueStarted", $"DialogueID: {dialogue.dialogueID}, Character: {dialogue.characterName}");
+            
             DisplayCurrentLine();
         }
 
@@ -131,6 +134,8 @@ namespace DialogueSystem
             {
                 if (GameStateManager.Instance != null)
                     GameStateManager.Instance.MarkDialogueComplete(currentDialogue.dialogueID);
+                
+                GameLogger.Instance.LogGameEvent("DialogueCompleted", $"DialogueID: {currentDialogue.dialogueID}");
             }
 
             dialogueBox.SetActive(false);
