@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: RED_BUTLER_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: RED_BUTLER_COMMENT
+  characterName: Miss Red
+  dialoguePrompt: Ask about the Old Butler
+  dialogueLines:
+  - text: "That poor Butler still works himself to dust. Father trusted him with
+      everything. Maybe too much\u2014he knew every secret in this house."
+    audioClip: {fileID: 8300000, guid: e203ed414ac99403cbba081e47bff530, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: BUTLER_BASE

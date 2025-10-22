@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: RED_GREEN_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: RED_GREEN_COMMENT
+  characterName: Miss Red
+  dialoguePrompt: Ask about Mr. Money
+  dialogueLines:
+  - text: "Mr. Money\u2019s always been around when there\u2019s chaos brewing. I
+      wouldn\u2019t call him cruel, but I wouldn\u2019t leave him near a safe either."
+    audioClip: {fileID: 8300000, guid: 5a5b843e01ea84185bca608a08ec47af, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: GREEN_BASE
