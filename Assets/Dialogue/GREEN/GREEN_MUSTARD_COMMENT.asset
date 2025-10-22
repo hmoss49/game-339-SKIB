@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: GREEN_MUSTARD_COMMENT
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: GREEN_MUSTARD_COMMENT
+  characterName: Mr. Money
+  dialoguePrompt: Ask about Lt. Honey Mustard
+  dialogueLines:
+  - text: "Lieutenant Mustard\u2019s an honest man, but honesty doesn\u2019t pay
+      debts. He was itching to ask the Lord for backing again, I could tell."
+    audioClip: {fileID: 8300000, guid: cd5c4949f975d4f8e8669f247f97157b, type: 3}
+  requiresCondition: 1
+  requiredDialogueID: MUSTARD_BASE

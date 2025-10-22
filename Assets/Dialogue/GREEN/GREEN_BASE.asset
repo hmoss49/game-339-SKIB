@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aa00b5f8e5bff4b8789790147ef1f4, type: 3}
+  m_Name: GREEN_BASE
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
+  dialogueID: GREEN_BASE
+  characterName: Mr. Money
+  dialoguePrompt: Talk to Mr. Money
+  dialogueLines:
+  - text: "The name\u2019s Mr. Money, I own a couple casinos, other businesses here
+      and there, all above board of course detective."
+    audioClip: {fileID: 8300000, guid: 47d789263d9ae409d9c281427ce2674c, type: 3}
+  - text: "This is grim stuff with the old man. He was a good guy, didn\u2019t deserve
+      this. I figured if someone was gonna go out like this it would be me..."
+    audioClip: {fileID: 8300000, guid: 028dcb6c047e945bd8a356917630f922, type: 3}
+  requiresCondition: 0
+  requiredDialogueID: 

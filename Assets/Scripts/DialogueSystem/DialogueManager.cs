@@ -22,6 +22,10 @@ namespace DialogueSystem
         public Transform choiceButtonContainer;
         public GameObject choiceButtonPrefab;
 
+        [Header("Choice Button Colors")]
+        public Color unplayedButtonColor = Color.white;
+        public Color playedButtonColor = new Color(0.5f, 0.5f, 0.5f, 1f); // Dark grey
+
         private Dialogue currentDialogue;
         private int currentLineIndex;
         private List<GameObject> spawnedChoiceButtons = new List<GameObject>();
@@ -65,6 +69,21 @@ namespace DialogueSystem
 
                 if (buttonText != null)
                     buttonText.text = dialogue.dialoguePrompt;
+
+                // Check if dialogue has been completed and change colors
+                bool isCompleted = GameStateManager.Instance != null && 
+                                   !string.IsNullOrEmpty(dialogue.dialogueID) && 
+                                   GameStateManager.Instance.HasCompletedDialogue(dialogue.dialogueID);
+
+                ColorBlock colors = button.colors;
+                Color baseColor = isCompleted ? playedButtonColor : unplayedButtonColor;
+                
+                colors.normalColor = baseColor;
+                colors.highlightedColor = baseColor * 1.1f; // Slightly lighter when hovering
+                colors.pressedColor = baseColor * 0.9f; // Slightly darker when pressed
+                colors.selectedColor = baseColor;
+                
+                button.colors = colors;
 
                 button.onClick.AddListener(() => OnChoiceSelected(dialogue));
             }
