@@ -53,8 +53,21 @@ namespace DialogueSystem
                 Instance = null;
         }
 
-        public void ShowDialogueChoices(Dialogue[] dialogues)
+        public void ShowDialogueChoices(Dialogue[] dialogues, GameObject characterObject = null)
         {
+            // Store character reference and keep it selected
+            if (characterObject != null)
+            {
+                currentSpeakingCharacter = characterObject;
+                currentSpeakingCharacterButton = characterObject.GetComponent<Button>();
+                
+                // Keep the button selected and disabled while showing choices
+                if (currentSpeakingCharacterButton != null)
+                {
+                    currentSpeakingCharacterButton.interactable = false;
+                }
+            }
+            
             ClearChoiceButtons();
             choiceMenuPanel.SetActive(true);
             dialogueBox.SetActive(false);
@@ -93,14 +106,18 @@ namespace DialogueSystem
         {
             currentDialogue = dialogue;
             currentLineIndex = 0;
-            currentSpeakingCharacter = characterObject;
+            
+            // Only set character reference if not already set (from choice menu)
+            if (currentSpeakingCharacter == null && characterObject != null)
+            {
+                currentSpeakingCharacter = characterObject;
+                currentSpeakingCharacterButton = characterObject.GetComponent<Button>();
+            }
             
             // Disable the character button while dialogue is playing
-            if (currentSpeakingCharacter != null)
+            if (currentSpeakingCharacterButton != null)
             {
-                currentSpeakingCharacterButton = currentSpeakingCharacter.GetComponent<Button>();
-                if (currentSpeakingCharacterButton != null)
-                    currentSpeakingCharacterButton.interactable = false;
+                currentSpeakingCharacterButton.interactable = false;
             }
             
             dialogueBox.SetActive(true);
@@ -149,7 +166,7 @@ namespace DialogueSystem
         void OnChoiceSelected(Dialogue dialogue)
         {
             ClearChoiceButtons();
-            StartDialogue(dialogue);
+            StartDialogue(dialogue); // Don't pass character - it's already stored
         }
 
         void ClearChoiceButtons()

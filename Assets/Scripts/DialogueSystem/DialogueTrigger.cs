@@ -29,7 +29,7 @@ namespace DialogueSystem
             if (dialoguesToShow.Length == 1)
                 DialogueManager.Instance.StartDialogue(dialoguesToShow[0], gameObject);
             else
-                DialogueManager.Instance.ShowDialogueChoices(dialoguesToShow);
+                DialogueManager.Instance.ShowDialogueChoices(dialoguesToShow, gameObject); // Pass character reference
         }
 
         Dialogue[] GetAvailableDialogues()
