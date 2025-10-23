@@ -730,6 +730,7 @@ GameObject:
   - component: {fileID: 779105228}
   - component: {fileID: 779105227}
   - component: {fileID: 779105229}
+  - component: {fileID: 779105230}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -839,6 +840,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &779105230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779105225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: ead198ae3fe5fc543a580a52d5f60396, type: 3}
+  volume: 0.2
 --- !u!1 &813878579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1775,6 +1790,7 @@ GameObject:
   - component: {fileID: 1726913052}
   - component: {fileID: 1726913051}
   - component: {fileID: 1726913050}
+  - component: {fileID: 1726913053}
   m_Layer: 5
   m_Name: ToDiningRoom
   m_TagString: Untagged
@@ -1896,6 +1912,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726913048}
   m_CullTransparentMesh: 1
+--- !u!114 &1726913053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726913048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 91c6fc4d9b62df84782a1734d434ba7c, type: 3}
+  volume: 0.2
 --- !u!1 &1871685509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,11 +2082,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1871685509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d9f75e54d722b499ab1c3395db9ed0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.DialogueTrigger
-  availableDialogues:
-  - {fileID: 11400000, guid: 4aaefbb674fa746499db128a712bf662, type: 2}
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 0c107aebacfc95b4aa623e850b9ccf7b, type: 3}
+  volume: 0.2
 --- !u!1 &2136045497
 GameObject:
   m_ObjectHideFlags: 0

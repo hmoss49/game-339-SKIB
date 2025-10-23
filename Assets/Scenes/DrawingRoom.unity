@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 195700527}
   - component: {fileID: 195700526}
   - component: {fileID: 195700525}
+  - component: {fileID: 195700528}
   m_Layer: 5
   m_Name: ToDiningRoom
   m_TagString: Untagged
@@ -252,6 +253,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195700523}
   m_CullTransparentMesh: 1
+--- !u!114 &195700528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195700523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 91c6fc4d9b62df84782a1734d434ba7c, type: 3}
+  volume: 0.2
 --- !u!1 &323627090
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +402,7 @@ GameObject:
   - component: {fileID: 333752303}
   - component: {fileID: 333752302}
   - component: {fileID: 333752301}
+  - component: {fileID: 333752304}
   m_Layer: 5
   m_Name: ToSecretPassage
   m_TagString: Untagged
@@ -508,6 +524,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333752299}
   m_CullTransparentMesh: 1
+--- !u!114 &333752304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333752299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: f9d624c6f7876a34fa2dc857887117b7, type: 3}
+  volume: 0.2
 --- !u!1 &480283528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1698,7 @@ GameObject:
   - component: {fileID: 1167789104}
   - component: {fileID: 1167789103}
   - component: {fileID: 1167789102}
+  - component: {fileID: 1167789105}
   m_Layer: 5
   m_Name: ToFoyer
   m_TagString: Untagged
@@ -1789,6 +1820,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167789100}
   m_CullTransparentMesh: 1
+--- !u!114 &1167789105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167789100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 91c6fc4d9b62df84782a1734d434ba7c, type: 3}
+  volume: 0.2
 --- !u!1 &1491382141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,6 +1982,7 @@ GameObject:
   - component: {fileID: 1661325699}
   - component: {fileID: 1661325698}
   - component: {fileID: 1661325697}
+  - component: {fileID: 1661325700}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -2046,6 +2092,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661325695}
   m_CullTransparentMesh: 1
+--- !u!114 &1661325700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661325695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: ead198ae3fe5fc543a580a52d5f60396, type: 3}
+  volume: 0.2
 --- !u!1 &1691673979
 GameObject:
   m_ObjectHideFlags: 0

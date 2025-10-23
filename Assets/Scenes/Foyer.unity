@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 68128215}
   - component: {fileID: 68128214}
   - component: {fileID: 68128213}
+  - component: {fileID: 68128216}
   m_Layer: 5
   m_Name: GREEN
   m_TagString: Untagged
@@ -387,6 +388,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68128211}
   m_CullTransparentMesh: 1
+--- !u!114 &68128216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68128211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: b319a58eaff34354098f342f25eed86e, type: 3}
+  volume: 0.2
 --- !u!1 &94290320
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +414,7 @@ GameObject:
   - component: {fileID: 94290324}
   - component: {fileID: 94290323}
   - component: {fileID: 94290322}
+  - component: {fileID: 94290325}
   m_Layer: 5
   m_Name: MUSTARD
   m_TagString: Untagged
@@ -519,6 +535,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94290320}
   m_CullTransparentMesh: 1
+--- !u!114 &94290325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94290320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: b319a58eaff34354098f342f25eed86e, type: 3}
+  volume: 0.2
 --- !u!1 &248292963
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,6 +561,7 @@ GameObject:
   - component: {fileID: 248292967}
   - component: {fileID: 248292966}
   - component: {fileID: 248292965}
+  - component: {fileID: 248292968}
   m_Layer: 5
   m_Name: WHITE
   m_TagString: Untagged
@@ -651,6 +682,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248292963}
   m_CullTransparentMesh: 1
+--- !u!114 &248292968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248292963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: b319a58eaff34354098f342f25eed86e, type: 3}
+  volume: 0.2
 --- !u!1 &268631700
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +708,7 @@ GameObject:
   - component: {fileID: 268631704}
   - component: {fileID: 268631703}
   - component: {fileID: 268631702}
+  - component: {fileID: 268631705}
   m_Layer: 5
   m_Name: ToUpstairsBedroom
   m_TagString: Untagged
@@ -784,6 +830,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268631700}
   m_CullTransparentMesh: 1
+--- !u!114 &268631705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268631700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 9fed1e5da4cb4764da3ee3111dc7e4d0, type: 3}
+  volume: 0.2
 --- !u!1 &277160480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,6 +1744,7 @@ GameObject:
   - component: {fileID: 561636531}
   - component: {fileID: 561636530}
   - component: {fileID: 561636529}
+  - component: {fileID: 561636532}
   m_Layer: 5
   m_Name: PURPLE
   m_TagString: Untagged
@@ -1804,6 +1865,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561636527}
   m_CullTransparentMesh: 1
+--- !u!114 &561636532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561636527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: b319a58eaff34354098f342f25eed86e, type: 3}
+  volume: 0.2
 --- !u!1 &611626142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +1891,7 @@ GameObject:
   - component: {fileID: 611626146}
   - component: {fileID: 611626145}
   - component: {fileID: 611626144}
+  - component: {fileID: 611626147}
   m_Layer: 5
   m_Name: SUICIDE?
   m_TagString: Untagged
@@ -1936,6 +2012,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611626142}
   m_CullTransparentMesh: 1
+--- !u!114 &611626147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611626142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: b319a58eaff34354098f342f25eed86e, type: 3}
+  volume: 0.2
 --- !u!1 &632980589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1948,6 +2038,7 @@ GameObject:
   - component: {fileID: 632980593}
   - component: {fileID: 632980592}
   - component: {fileID: 632980591}
+  - component: {fileID: 632980594}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -2057,6 +2148,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632980589}
   m_CullTransparentMesh: 1
+--- !u!114 &632980594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632980589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: ead198ae3fe5fc543a580a52d5f60396, type: 3}
+  volume: 0.2
 --- !u!1 &724123828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2769,6 +2874,7 @@ GameObject:
   - component: {fileID: 1030663019}
   - component: {fileID: 1030663018}
   - component: {fileID: 1030663017}
+  - component: {fileID: 1030663020}
   m_Layer: 5
   m_Name: ToLibrary
   m_TagString: Untagged
@@ -2890,6 +2996,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030663015}
   m_CullTransparentMesh: 1
+--- !u!114 &1030663020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030663015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 91c6fc4d9b62df84782a1734d434ba7c, type: 3}
+  volume: 0.2
 --- !u!1 &1084332386
 GameObject:
   m_ObjectHideFlags: 0
@@ -4096,6 +4216,7 @@ GameObject:
   - component: {fileID: 1846186242}
   - component: {fileID: 1846186241}
   - component: {fileID: 1846186240}
+  - component: {fileID: 1846186243}
   m_Layer: 5
   m_Name: RED
   m_TagString: Untagged
@@ -4216,6 +4337,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846186238}
   m_CullTransparentMesh: 1
+--- !u!114 &1846186243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846186238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: b319a58eaff34354098f342f25eed86e, type: 3}
+  volume: 0.2
 --- !u!1 &1888735627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4307,6 +4442,7 @@ GameObject:
   - component: {fileID: 2012271176}
   - component: {fileID: 2012271175}
   - component: {fileID: 2012271174}
+  - component: {fileID: 2012271177}
   m_Layer: 5
   m_Name: ToDrawingRoom
   m_TagString: Untagged
@@ -4428,6 +4564,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012271172}
   m_CullTransparentMesh: 1
+--- !u!114 &2012271177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012271172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aece8fa2533b9245ae13045ec993aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+  clickSound: {fileID: 8300000, guid: 91c6fc4d9b62df84782a1734d434ba7c, type: 3}
+  volume: 0.2
 --- !u!1 &2015439309
 GameObject:
   m_ObjectHideFlags: 0
