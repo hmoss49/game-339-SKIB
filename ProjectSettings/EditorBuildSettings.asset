@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/UpstairsBedroom.unity
     guid: 222e7346cd75af04ea98b32b6905e3b8
   - enabled: 1
-    path: Assets/Scenes/SecretPassage.unity
+    path: Assets/Scenes/SecretPassageToLibrary.unity
     guid: 5426d8d79c35c434d8281908ec119e1b
   - enabled: 1
     path: Assets/Developers/Isamu/TB_DialogueSystem2.unity
@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Developers/Isamu/TB_DialogueSystem1.unity
     guid: ef77e0f8c4ec4f64198bf250484a4d9d
+  - enabled: 1
+    path: Assets/Scenes/SecretPassageToDrawingRoom.unity
+    guid: d43bd1c336e63304c8fd4569d968a47e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
