@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.Dialogue
   dialogueID: PURPLE_END
   characterName: Dr. Purple
-  dialoguePrompt: Accuse Dr. Purple
+  dialoguePrompt: Confront the doctor
   dialogueLines:
   - text: "So the mystery\u2019s over, then. A shame\u2014the unknown was far more
       elegant than the answer."
     audioClip: {fileID: 8300000, guid: 5c26253ae81ea4e9eb0f1d917b42a554, type: 3}
-  requiresCondition: 0
+  requiresCondition: 1
   requiredDialogueID: 
+  requiredItemName: 
+  requiredLocationID: 
+  requiresCorrectAccusation: 1

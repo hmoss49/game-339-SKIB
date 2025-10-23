@@ -18,6 +18,9 @@ namespace DialogueSystem
         [Header("Unlock Conditions")]
         public bool requiresCondition = false;
         public string requiredDialogueID;
+        public string requiredItemName;
+        public string requiredLocationID;
+        public bool requiresCorrectAccusation = false;
         
         public bool IsValid()
         {

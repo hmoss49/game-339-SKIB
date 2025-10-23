@@ -20,5 +20,7 @@ MonoBehaviour:
       panel leads straight to the Drawing Room\u2014an excellent feature if one wants
       to say, quickly grab a book to read. Shame they have been sealed for years."
     audioClip: {fileID: 8300000, guid: c747f4e9d12b2468ba062ff33aa8f2eb, type: 3}
-  requiresCondition: 0
+  requiresCondition: 1
   requiredDialogueID: 
+  requiredItemName: 
+  requiredLocationID: SecretPassageFound

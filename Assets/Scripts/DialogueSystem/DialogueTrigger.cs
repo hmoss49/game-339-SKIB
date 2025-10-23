@@ -19,9 +19,7 @@ namespace DialogueSystem
             if (DialogueManager.Instance == null) return;
 
             Dialogue[] dialoguesToShow = GetAvailableDialogues();
-
-            if (dialoguesToShow.Length == 0)
-                return;
+            if (dialoguesToShow.Length == 0) return;
 
             if (button != null)
                 button.Select();
@@ -29,7 +27,7 @@ namespace DialogueSystem
             if (dialoguesToShow.Length == 1)
                 DialogueManager.Instance.StartDialogue(dialoguesToShow[0], gameObject);
             else
-                DialogueManager.Instance.ShowDialogueChoices(dialoguesToShow, gameObject); // Pass character reference
+                DialogueManager.Instance.ShowDialogueChoices(dialoguesToShow, gameObject);
         }
 
         Dialogue[] GetAvailableDialogues()
@@ -50,10 +48,39 @@ namespace DialogueSystem
             if (!dialogue.requiresCondition)
                 return true;
 
-            if (GameStateManager.Instance != null)
-                return GameStateManager.Instance.HasCompletedDialogue(dialogue.requiredDialogueID);
+            // Check dialogue requirement
+            if (!string.IsNullOrEmpty(dialogue.requiredDialogueID))
+            {
+                if (GameStateManager.Instance == null || 
+                    !GameStateManager.Instance.HasCompletedDialogue(dialogue.requiredDialogueID))
+                    return false;
+            }
 
-            return false;
+            // Check item requirement
+            if (!string.IsNullOrEmpty(dialogue.requiredItemName))
+            {
+                if (InventoryManager.Instance == null || 
+                    !InventoryManager.Instance.inventory.Value.Contains(dialogue.requiredItemName))
+                    return false;
+            }
+
+            // Check location requirement
+            if (!string.IsNullOrEmpty(dialogue.requiredLocationID))
+            {
+                if (GameStateManager.Instance == null || 
+                    !GameStateManager.Instance.HasDiscoveredLocation(dialogue.requiredLocationID))
+                    return false;
+            }
+
+            // Check accusation requirement
+            if (dialogue.requiresCorrectAccusation)
+            {
+                if (GameStateManager.Instance == null || 
+                    !GameStateManager.Instance.HasAccusedCorrectly())
+                    return false;
+            }
+
+            return true;
         }
     }
 }

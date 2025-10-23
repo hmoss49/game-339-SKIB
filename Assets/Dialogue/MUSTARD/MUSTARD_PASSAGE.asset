@@ -20,5 +20,7 @@ MonoBehaviour:
       decades ago so the kids would stop running around and surprising people. I
       suppose someone had other plans.
     audioClip: {fileID: 8300000, guid: 316d9b4a8427a4ce087902b0d2b5dea6, type: 3}
-  requiresCondition: 0
+  requiresCondition: 1
   requiredDialogueID: 
+  requiredItemName: 
+  requiredLocationID: SecretPassageFound

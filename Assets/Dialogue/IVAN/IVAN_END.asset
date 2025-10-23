@@ -19,6 +19,9 @@ MonoBehaviour:
   - text: "So it was... Professor Plum! In the Drawing Room! With Colonel Mustard\u2019s
       gun! I knew it all along \u2014 although I really should stop playing CLUE
       and get back to investigating."
-    audioClip: {fileID: 8300000, guid: 9e132757d5a824d5db699f04b91c4866, type: 3}
+    audioClip: {fileID: 8300000, guid: c7d66378b14024b20a3bc13c4b7bf331, type: 3}
   requiresCondition: 1
   requiredDialogueID: PURPLE_END
+  requiredItemName: 
+  requiredLocationID: 
+  requiresCorrectAccusation: 0

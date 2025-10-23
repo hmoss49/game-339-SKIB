@@ -21,5 +21,7 @@ MonoBehaviour:
       Room\u2014convenient if one wanted to sneak about...although perhaps one could
       use it for more than a prank."
     audioClip: {fileID: 8300000, guid: 87e06e9f7765c41808ff672c33e722cc, type: 3}
-  requiresCondition: 0
+  requiresCondition: 1
   requiredDialogueID: 
+  requiredItemName: Keys
+  requiresBothConditions: 0

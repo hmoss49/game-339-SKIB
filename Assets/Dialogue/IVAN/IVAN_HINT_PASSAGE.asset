@@ -19,5 +19,7 @@ MonoBehaviour:
   - text: "Secret passages? That\u2019s it! I\u2019ll start tapping walls. If one
       opens, I\u2019m blaming ghosts first."
     audioClip: {fileID: 8300000, guid: d3a2a7c738946414d940f40d6c90b534, type: 3}
-  requiresCondition: 0
+  requiresCondition: 1
   requiredDialogueID: 
+  requiredItemName: 
+  requiredLocationID: SecretPassageFound
