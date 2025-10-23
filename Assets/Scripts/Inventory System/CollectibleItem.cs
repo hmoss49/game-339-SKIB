@@ -8,6 +8,6 @@ public class CollectibleItem : MonoBehaviour
     public void PickUp()
     {
         InventoryManager.Instance.AddItemToInventory(itemName);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
