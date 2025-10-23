@@ -23,10 +23,21 @@ public class ViewInventory : MonoBehaviour
         if (InventoryText == null)
             return;
 
-        InventoryText.text = items.Count == 0
-            ? "Inventory is empty"
-            : "Inventory:\n" + string.Join("\n", items);
+        if (items.Count == 0)
+        {
+            InventoryText.text = "Inventory is empty";
+            return;
+        }
+
+        string display = "Inventory:\n";
+        foreach (var item in items)
+        {
+            display += $"- {item} x 1\n";
+        }
+
+        InventoryText.text = display.TrimEnd();
     }
+
 
     private void OnDestroy()
     {
